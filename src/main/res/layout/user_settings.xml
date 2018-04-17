@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content"
+     android:layout_width="match_parent">
+
+
+
+    <PreferenceCategory
+        android:title="Settings">
+
+        <EditTextPreference
+            android:key="prefUserLocation"
+            android:summary="Set Your Location"
+            android:title="loctaion" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

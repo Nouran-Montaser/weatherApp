@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/re"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tool_bar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Location"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="italic|bold" />
+
+
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/ChatAddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/locwi" />
+
+
+    </RelativeLayout>
+</LinearLayout>
